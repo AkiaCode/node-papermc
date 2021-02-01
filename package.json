@@ -1,0 +1,20 @@
+{
+  "name": "node-papermc",
+  "version": "0.1.0",
+  "description": "PaperMC API",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "keywords": [
+    "PaperMC"
+  ],
+  "author": "Catryt",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
