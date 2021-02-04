@@ -1,5 +1,5 @@
 {
-  "name": "papermc",
+  "name": "node-papermc",
   "version": "1.0.0",
   "description": "PaperMC API",
   "main": "dist/index.js",
