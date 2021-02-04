@@ -1,4 +1,4 @@
-const { PaperMC } = require('../')
+import { PaperMC } from '../'
 const paper = new PaperMC()
 
 // 왜 node는 root await를 지원하지 않는거야ㅠㅠ
