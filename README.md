@@ -4,22 +4,22 @@
 ### BASE_URL: string
 Base URL of rest api
 
-### getProjectInfo(project: string): Promise<PaperProjectInfos>
+### getProjectInfo(project: string): Promise\<PaperProjectInfos>
 Get project id, project name, version groups, versions
 
-### getVersionInfo(project: string, version: string) Promise<PaperVersionInfos>
+### getVersionInfo(project: string, version: string) Promise\<PaperVersionInfos>
 Get project id, project name, version, builds
 
-### getVersionGroupInfo(project: string, version_group: string): Promise<PaperVersionGroupInfos>
+### getVersionGroupInfo(project: string, version_group: string): Promise\<PaperVersionGroupInfos>
 Get project id, project name, version group, versions
 
-### getVersionGroupBuilds(project: string, version_group: string): Promise<PaperVersionGroupBuilds>
+### getVersionGroupBuilds(project: string, version_group: string): Promise\<PaperVersionGroupBuilds>
 Get project id, project name, version group, versions, builds
 
-### getBuildInfo(project: string, version: string, build: number): Promise<PaperBuildInfos>
+### getBuildInfo(project: string, version: string, build: number): Promise\<PaperBuildInfos>
 Get project id, project name, build, time, changes, downloads
 
-### download(project: string, version: string, build: number, name: string): Promise<Blob>
+### download(project: string, version: string, build: number, name: string): Promise\<Blob>
 Get build file blob
 
 ## examples
