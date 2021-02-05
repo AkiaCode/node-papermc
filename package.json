@@ -1,6 +1,6 @@
 {
   "name": "node-papermc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PaperMC API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,7 @@
   "keywords": [
     "PaperMC"
   ],
+  "repository": "https://github.com/akiacode/node-papermc",
   "author": "Catry",
   "license": "MIT",
   "dependencies": {

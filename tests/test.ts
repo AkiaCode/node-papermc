@@ -1,8 +1,7 @@
 import { PaperMC } from '../'
 const paper = new PaperMC()
 
-// 왜 node는 root await를 지원하지 않는거야ㅠㅠ
-// 아 deno마렵다
+
 ; (async () => {
   
   console.log('Base URL:', paper.BASE_URL)
